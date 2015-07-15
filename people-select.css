@@ -1,0 +1,123 @@
+.people-select{
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	font-size: .34rem;
+	z-index: 10;
+}
+.people-select-bd{
+	position: absolute;
+	padding-top: .2rem;
+	top: .96rem;
+	left: 0;
+	right: 0;
+	bottom: 1.1rem;
+	overflow: auto;
+}
+.people-select .select-group{
+	position: relative;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	padding-left: .34rem;
+}
+.people-select .select-group span{
+	position: absolute;
+	right: .26rem;
+	top: .23rem;
+	display: inline-block;
+	width: .64rem;
+	height: .64rem;
+	background-size: 100%;
+	cursor: pointer;
+	background-image: url(img/arrow-right.png);
+}
+.people-select .select-topname{
+	position: relative;
+	border-bottom:1px solid #e3ebf0;
+	margin: .3rem 0 .3rem .68rem;
+}
+.people-select .select-topname span{
+	position: absolute;
+	top: -0.16rem;
+	left: -0.3rem;
+	font-size: .32rem;
+	color: #3d9ddb;
+	font-weight: bold;
+}
+.people-item{
+	position: relative;
+	height: 1.2rem;
+	line-height: 1.2rem;
+}
+.people-item .icon{
+	position: absolute;
+	right: .26rem;
+	top: .28rem;
+	width: .64rem;
+	height: .64rem;
+	background-size: 100%;
+	cursor: pointer;
+}
+.people-item:active{
+	background-color: #e9e9e9;
+}
+.people-item.selected .icon{
+	background-image: url(img/icon-checkbox-checked.png);
+}
+.people-item img{
+	margin-left: .34rem;
+	margin-right: .34rem;
+	width: .78rem;
+	height: .78rem;
+	border-radius: .39rem;
+	vertical-align: middle;
+}
+.people-item .item-name{
+	vertical-align: middle;
+}
+.people-select-ft{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1.1rem;
+	border-top:1px solid #e0e0e0;
+	background-color: #f9f9f9;
+}
+.people-select-ft span{
+	display: inline-block;
+	position: absolute;
+	height: 1.1rem;
+	width: 2.1rem;
+	right: 0;
+	top: 0;
+	background-color: #3d9ddb;
+	cursor: pointer;
+	color: #fff;
+	font-size: .32rem;
+	line-height: 1.1rem;
+	text-align: center;
+}
+
+.icon-checkbox{
+	background-image: url(img/icon-checkbox.png);
+}
+.icon-checkbox-checked{
+	background-image: url(img/icon-checkbox-checked.png);
+}
+.icon-checkbox.checked{
+	background-image: url(img/icon-checkbox-checked.png);
+}
+
+
+
+
+
+
+
+
+
